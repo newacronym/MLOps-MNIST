@@ -1,7 +1,2 @@
-torch
-torchvision
-pillow
-numpy
 uvicorn
 fastapi
-torchsummary

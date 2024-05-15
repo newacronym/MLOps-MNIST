@@ -1,11 +1,10 @@
-FROM python:3.11
+FROM python:3.11-slim
+
+RUN pip install torch torchvision
 
 WORKDIR /workspace
 
-RUN python -m pip install --upgrade pip
-RUN apt update && apt upgrade -y
-
-COPY ./ /workspace/
+COPY ./inference /workspace/inference
 
 RUN pip install -r inference/requirements.txt
 

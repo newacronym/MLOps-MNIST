@@ -1,0 +1,6 @@
+artifact_location: file:///C:/workspace/personal/MNIST/mlruns/492255811164162868
+creation_time: 1715773215698
+experiment_id: '492255811164162868'
+last_update_time: 1715773215698
+lifecycle_stage: active
+name: MNIST_Training
