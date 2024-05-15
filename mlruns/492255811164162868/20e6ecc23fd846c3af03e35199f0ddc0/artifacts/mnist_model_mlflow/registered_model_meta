@@ -1,0 +1,2 @@
+model_name: MNIST_MLFLOW_MODEL_V1
+model_version: '1'

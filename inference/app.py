@@ -1,20 +1,17 @@
 from torchvision import transforms
 import torch
-import os
 import io
 from PIL import Image
 from fastapi import (
     FastAPI,
-    Request,
-    status,
     File,
     UploadFile,
     HTTPException,
 )
-from train import mnistNet
+from inference.modelClass import mnistNet
 
 model = mnistNet()
-model.load_state_dict(torch.load("mnist_model.pth"))
+model.load_state_dict(torch.load("inference/mnist_model.pth"))
 model.eval()
 
 transform = transforms.Compose([
@@ -39,4 +36,4 @@ async def predict(file: UploadFile = File(...)):
         predicted_digit = torch.argmax(output, dim=1).item()
         return {"predicted_digit": predicted_digit}
     except Exception as e:
-        return {"error": f"Error predicting digit: {e}"}
+        raise HTTPException(status_code=500, detail=f"Error predicting digit: {e}")

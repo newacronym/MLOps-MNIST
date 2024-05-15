@@ -1,4 +1,4 @@
-from train import mnistNet
+from train.train import mnistNet
 import torch
 from PIL import Image
 from torchvision import transforms
