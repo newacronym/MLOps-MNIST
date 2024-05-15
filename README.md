@@ -2,7 +2,7 @@
 
 
 
-## 1. TRAINING
+## 1. Training
 
 Install dependencies ``` pip install -r train/requirements.txt ```
 train/train.py contains the training code. The code can be simply run by running the command ``` mlflow ui ``` in the terminal and ``` python train/train.py ``` in another terminal.
@@ -19,7 +19,7 @@ It should give you an endpoint from which you can use it for inferencing.
 PS.
 (Sadly, I was not able to deploy through mlflow, as it needs a pyenv binary file ( which, I suppose manages virtual env ), I was unable to install that because I don't have admin access to the only laptop I currently have :(, which I suppose should not be a big task. Sorry for that.)
 
-## 2. INFERENCE
+## 2. Inference
 
 RUN ``` pip install -r inference/requirements.txt ```
 For running inference locally, configure the infer.py file by passing the path of the image, and then running ``` python infer.py ```
