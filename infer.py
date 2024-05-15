@@ -1,4 +1,4 @@
-from train.train import mnistNet
+from inference.modelClass import mnistNet
 import torch
 from PIL import Image
 from torchvision import transforms
