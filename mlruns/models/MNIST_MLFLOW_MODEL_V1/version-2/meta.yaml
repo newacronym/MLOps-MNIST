@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1715806917581
+current_stage: None
+description: ''
+last_updated_timestamp: 1715806917581
+name: MNIST_MLFLOW_MODEL_V1
+run_id: 5d3e38711d4c4bf28e2c2c89e4263f9c
+run_link: ''
+source: file:///C:/workspace/personal/MNIST/mlruns/492255811164162868/5d3e38711d4c4bf28e2c2c89e4263f9c/artifacts/mnist_model_mlflow
+status: READY
+status_message: null
+storage_location: file:///C:/workspace/personal/MNIST/mlruns/492255811164162868/5d3e38711d4c4bf28e2c2c89e4263f9c/artifacts/mnist_model_mlflow
+user_id: null
+version: 2

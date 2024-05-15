@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/workspace/personal/MNIST/mlruns/492255811164162868/20e6ecc23fd846c3af03e35199f0ddc0/artifacts
+deleted_time: 1715805500809
 end_time: 1715773934375
 entry_point_name: ''
 experiment_id: '492255811164162868'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 20e6ecc23fd846c3af03e35199f0ddc0
 run_name: incongruous-crow-508
 run_uuid: 20e6ecc23fd846c3af03e35199f0ddc0

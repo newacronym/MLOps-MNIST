@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/workspace/personal/MNIST/mlruns/492255811164162868/5d3e38711d4c4bf28e2c2c89e4263f9c/artifacts
+end_time: 1715805660135
+entry_point_name: ''
+experiment_id: '492255811164162868'
+lifecycle_stage: active
+run_id: 5d3e38711d4c4bf28e2c2c89e4263f9c
+run_name: thoughtful-wasp-799
+run_uuid: 5d3e38711d4c4bf28e2c2c89e4263f9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715805493498
+status: 3
+tags: []
+user_id: harshit.gupta2
