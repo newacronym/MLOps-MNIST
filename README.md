@@ -31,6 +31,10 @@ To run the project as a docker container.
 Build the docker image as ``` docker build . mnist ```
 After the build is done, run the docker image as ``` docker run -p 8000:8000 mnist ```
 
+## 4. Kubernetes for Deployment
+
+To deploy it to Kubernetes run the following command ``` kubectl apply -f .deply/dev/mnist-deployment.yaml ```
+
 
 
 
