@@ -16,8 +16,6 @@ RUN the following command
 ``` mlflow models serve -m "models:/<model_name>/<model_version>" -h <host> -p <port> ```
 
 It should give you an endpoint from which you can use it for inferencing. 
-PS.
-(Sadly, I was not able to deploy through mlflow, as it needs a pyenv binary file ( which, I suppose manages virtual env ), I was unable to install that because I don't have admin access to the only laptop I currently have :(, which I suppose should not be a big task. Sorry for that.)
 
 ## 2. Inference
 
